@@ -118,9 +118,9 @@ Future _buildProjectIfEmptyOrOld(List<String> sources, List<String> excludes,
     String executable = 'webdev';
     if (Platform.isWindows) {
       try {
-        final pr = await Process.run('webdev.exe', ['--version']);
+        final pr = await Process.run('webdev.bat', ['--help']);
         if (pr.exitCode == 0) {
-          executable = 'webdev.exe';
+          executable = 'webdev.bat';
         }
       } catch (_) {}
     }
