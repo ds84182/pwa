@@ -198,8 +198,8 @@ class _OfflineUrlScanner {
         'packages/build_modules/**',
         'packages/build_runner/**',
         'packages/build_web_compilers/**',
-        'packages/packages/cobra/**',
-        'packages/packages/front_end/**',
+        'packages/cobra/**',
+        'packages/front_end/**',
         'packages/node_preamble/**',
         // hidden files
         '.**',
