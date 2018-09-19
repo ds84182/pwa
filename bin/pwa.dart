@@ -201,6 +201,7 @@ class _OfflineUrlScanner {
         'packages/cobra/**',
         'packages/front_end/**',
         'packages/node_preamble/**',
+        'packages/pedantic/**',
         // hidden files
         '.**',
         // sources that are not needed
